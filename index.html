@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app">
+      <form>
+        <div>
+          <p>From date:</p>
+          <input type="date" id="from" />
+        </div>
+        <div>
+          <p>To date:</p>
+          <input type="date" id="to" />
+        </div>
+        <div>
+          <p>Day difference</p>
+          <input type="number" id="day-diff" />
+        </div>
+        <div>
+          <input
+            type="checkbox"
+            id="date_checkbox"
+            name="date_checkbox"
+            value="date"
+          />
+          <label for="date_checkbox"> Include end date in calculation</label
+          ><br />
+        </div>
+      </form>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
