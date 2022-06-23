@@ -6,3 +6,16 @@
   color: #2c3e50;
   margin-top: 60px;
 }
+
+body {
+  background-color: #white;
+}
+
+label {
+  display: inline-block;
+  width: 250px;
+  text-align: left;
+  padding-left: 20px;
+  color: #00008b;
+  font-weight: bold;
+}

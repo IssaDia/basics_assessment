@@ -10,27 +10,27 @@
     <div id="app">
       <form>
         <div>
-          <p>From date:</p>
-          <input type="date" id="from" />
+          <label for="from">From date:</label>
+          <input type="date" id="from" name="FromDate" />
         </div>
         <div>
-          <p>To date:</p>
-          <input type="date" id="to" />
+          <label for="" to>To date:</label>
+          <input type="date" id="to" name="ToDate" />
         </div>
         <div>
-          <p>Day difference</p>
+          <label for="diff">Day difference</label>
           <input type="number" id="day-diff" />
         </div>
         <div>
+          <label for="include_end"> Include end date in calculation</label>
           <input
             type="checkbox"
-            id="date_checkbox"
-            name="date_checkbox"
+            id="include_end"
+            name="include_end"
             value="date"
           />
-          <label for="date_checkbox"> Include end date in calculation</label
-          ><br />
         </div>
+        <br />
       </form>
     </div>
     <script type="module" src="/src/main.ts"></script>
