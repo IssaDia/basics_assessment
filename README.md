@@ -1,4 +1,4 @@
-# 🖥 Interval finder part 2!
+# 🖥 Interval finder!
 
 A test to return number of days between two dates
 
