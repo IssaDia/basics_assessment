@@ -26,12 +26,13 @@ Create a simple form that shows the day difference between two date where:
 ## 🏗 Built with
 
 - [ViteJs](https://vitejs.dev/)
+- [Typescript](https://www.typescriptlang.org/)
+- [MomentJs](https://momentjs.com/docs/)
 
 ## My code environment and utils
 
 - VsCode
 - MacOs
-- Live Server
 
 ## Technical watch
 
@@ -47,4 +48,4 @@ Good exercise to manipulate JS Date objects
 
 ## 📑 To improve
 
-- more interactive
+- better UI
