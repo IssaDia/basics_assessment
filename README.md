@@ -49,3 +49,4 @@ Good exercise to manipulate JS Date objects
 ## 📑 To improve
 
 - better UI
+- unitary tests
